@@ -36,8 +36,8 @@ Note: the options --beamng and --port are only used to enable the implementation
 When running the script, a window will popup showing the detections that are made:
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Resources/imgs/LaneDetection/BNG1_ALL.jpg" width="49.5%"/> 
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Resources/imgs/LaneDetection/BNG2_ALL.jpg" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/imgs/LaneDetection/BNG1_ALL.jpg" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/imgs/LaneDetection/BNG2_ALL.jpg" width="49.5%"/> 
 </p>
 
 It is also possible to capture a specific individual frames by pressing the key `t`. They will automatically be saved to `save_path`. By pressing the key `b`the script will stop.
@@ -51,13 +51,13 @@ In order to implement the system into BeamNG, it is necessary to record the game
 Once it has been installed and configured, the game screen has to be added to OBS's scene and finally the virtual camera can be enabled.
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Recursos/imgs/Setup/captura_escena.jpg" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/imgs/Setup/captura_escena.jpg" width="49.5%"/> 
 </p>
 
 For the best performance of the lane detection system, the camera should be positioned on front and on top of the car's hood. To do so the game's "free camera" can be used by pressing the `4` key and then moving the camera with `w` and the mouse. Any objects that are within the green surface shown in the system's visualisation screen will interfere with the detection of the lanes, so it might be necessary to hide the *HUD*.
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Recursos/imgs/Setup/captura_beamng.jpg" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/imgs/Setup/captura_beamng.jpg" width="49.5%"/> 
 </p>
 
 #### How to run
@@ -70,7 +70,7 @@ The second one is `control_system_beamng.py (port)`. This script emulates the co
 Once both scripts are running, the autonomous driving system can be activated or deactivated by pressing `l`, and the vehicle will start steering on its own in order to keep itself within the lanes.
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Recursos/gifs/lane_det.gif" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/gifs/lane_det.gif" width="49.5%"/> 
 </p>
 
 
@@ -84,7 +84,7 @@ Before traning this object detector, I also attempted training a model to recogn
 The script to run predictions on the model is `Object_Detection/predict.py`. When running it, it creates a file selection popup to select the model. After that, until it receives a `stop` input it asks for the input media to process and displays the results.
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Recursos/imgs/Everything_example.jpg" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/imgs/Everything_example.jpg" width="49.5%"/> 
 </p>
 
 ****
@@ -93,7 +93,7 @@ The script to run predictions on the model is `Object_Detection/predict.py`. Whe
 As mentioned previously, the autonomous driving system was also implemented into a robot car. The car is able to detect lane markings on a circuit track and follow them.
 
 <p align="center">
-<img src="https://github.com/Algreen333/TR_ConduccioAutonoma/blob/main/Recursos/gif/picar.gif" width="49.5%"/> 
+<img src="https://github.com/Algreen333/TR_AutonomousDriving/blob/main/Resources/gifs/picar.gif" width="49.5%"/> 
 </p>
 
 
