@@ -120,11 +120,11 @@ These two scripts are an additional tool i built to control the robot car remote
 
 The server script must be run from the computer, which also has the controller conected:
 ```bash
-    python server.py <adress>
+    python server.py <address>
 ```
 The client script must be run from the Raspbery Pi:
 ```bash
-    python client.py <adress>
+    python client.py <address>
 ```
 The address must be of the form `computer_ip:port`.
 
