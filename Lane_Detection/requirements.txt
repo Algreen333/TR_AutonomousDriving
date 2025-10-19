@@ -1,7 +1,0 @@
-keyboard==0.13.5
-matplotlib==3.7.2
-numpy==1.24.3
-opencv_python==4.8.0.74
-pyzmq==25.1.0
-simple_pid==2.0.0
-vgamepad==0.0.8 #Used for BeamNG implementation

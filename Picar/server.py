@@ -9,14 +9,14 @@ serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #Argparse
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("url", type=str, default="192.168.1.53:8000", nargs="?", action="store",
-                    help="Server port. Default is '192.168.1.53:8000'")
+parser.add_argument("address", type=str, default="192.168.1.53:8000", nargs="?", action="store",
+                    help="Server address and port. Default is '192.168.1.53:8000'")
 args = parser.parse_args()
 
-url = args.url
-url = url.split(":")
-host = url[0]
-port = int(url[1])
+address = args.address
+address = address.split(":")
+host = address[0]
+port = int(address[1])
 
 serversocket.bind((host, port))
 

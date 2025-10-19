@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" modified="2023-09-29T17:25:36.217Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="5Tef3BN93JuLqGDGXq8-" version="22.0.0" type="device">
+  <diagram name="Pàgina-1" id="kb4YzZ8gIGK30NOM13s3">
+    <mxGraphModel dx="989" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XinlJyT8XgcyiHmA6Xeh-1" target="XinlJyT8XgcyiHmA6Xeh-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-1" value="OBS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XinlJyT8XgcyiHmA6Xeh-2" target="XinlJyT8XgcyiHmA6Xeh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-2" value="Lane detection" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XinlJyT8XgcyiHmA6Xeh-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="639.9999999999998" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-4" value="Steering system" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XinlJyT8XgcyiHmA6Xeh-13" target="XinlJyT8XgcyiHmA6Xeh-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="440" />
+              <mxPoint x="140" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-13" value="BeamNG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XinlJyT8XgcyiHmA6Xeh-14" target="XinlJyT8XgcyiHmA6Xeh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XinlJyT8XgcyiHmA6Xeh-14" value="VGameapad" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

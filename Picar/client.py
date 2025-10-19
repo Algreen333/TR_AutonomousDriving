@@ -6,10 +6,14 @@ import time as t
 #Argparse
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument("url", type=str, default="192.168.1.53:8000", nargs="?", action="store",
-                    help="Server port. Default is '192.168.1.53:8000'")
+parser.add_argument("address", type=str, default="192.168.1.53:8000", nargs="?", action="store",
+                    help="Server address and port. Default is '192.168.1.53:8000'")
 args = parser.parse_args()
-print(args.url)
+
+address = args.address
+address = address.split(":")
+host = address[0]
+port = int(address[1])
 
 
 # Pins and Raspi stuff
@@ -24,15 +28,9 @@ steer_mult = 0.9
 threshold = 0.1
 
 
+
 # Socket stuff
 clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = "192.168.1.53" # servers ip4 address
-port = 5000
-url = args.url
-url = url.split(":")
-host = url[0]
-port = int(url[1])
-
 clientsocket.connect((host, port))
 
 
