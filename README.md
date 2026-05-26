@@ -1,6 +1,6 @@
 ﻿# Autonomous Driving with Computer Vision and AI
 
-This repo contains the code developed for the 'Treball de Recerca'  - Final-year research project in Batxillerat (Catalan pre-university studies). You can read the full Project Report [here]([./Albert%20Caballero%20Crespi%20-%20Autonomous%20Driving%20with%20Computer%20Vision%20and%20AI.pdf](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Algreen333/TR_AutonomousDriving/main/Albert%20Caballero%20Crespi%20-%20Autonomous%20Driving%20with%20Computer%20Vision%20and%20AI.pdf)).
+This repo contains the code developed for the 'Treball de Recerca'  - Final-year research project in Batxillerat (Catalan pre-university studies). You can read the full Project Report [here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/Algreen333/TR_AutonomousDriving/main/Albert%20Caballero%20Crespi%20-%20Autonomous%20Driving%20with%20Computer%20Vision%20and%20AI.pdf).
 
 The aim of the project was to develop an Autonomous Driving System based on cameras. The main aspects developed were:
  - Lane detection and following
